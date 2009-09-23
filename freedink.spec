@@ -7,6 +7,7 @@ License:	GPL v3+
 Group:		X11/Applications/Games
 Source0:	http://ftp.gnu.org/gnu/freedink/%{name}-%{version}.tar.gz
 # Source0-md5:	0a7bc1e249c03538f5d51472fc73e0f4
+Patch0:		%{name}-desktop.patch
 URL:		http://www.freedink.org/
 BuildRequires:	SDL-devel >= 1.2.0
 BuildRequires:	SDL_image-devel
@@ -33,6 +34,7 @@ Do uruchomienia wymagane są pliki z oryginalnej werjsji gry.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__aclocal} -I gnulib/m4
