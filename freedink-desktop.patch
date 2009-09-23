@@ -1,0 +1,28 @@
+--- freedink-1.08.20090918/share/applications/freedinkedit.desktop~	2009-08-30 15:35:15.000000000 +0200
++++ freedink-1.08.20090918/share/applications/freedinkedit.desktop	2009-09-23 09:22:47.000000000 +0200
+@@ -1,8 +1,9 @@
+ [Desktop Entry]
+-Version=1.0
+ Type=Application
+ Name=FreeDinkedit
+ Comment=Portable Dink Smallwood game editor
++Comment[pl]=Edytor do gry Dink Smallwood
+ Exec=freedinkedit
+ Icon=freedink
+-Categories=Game;AdventureGame;
++Categories=Game;RolePlaying;
++# vi: encoding=utf-8
+--- freedink-1.08.20090918/share/applications/freedink.desktop~	2009-08-30 15:35:15.000000000 +0200
++++ freedink-1.08.20090918/share/applications/freedink.desktop	2009-09-23 09:25:51.000000000 +0200
+@@ -1,8 +1,9 @@
+ [Desktop Entry]
+-Version=1.0
+ Type=Application
+ Name=FreeDink
+ Comment=Humorous zelda-like isometric adventure/RPG
++Comment[pl]=Humorystyczna gra RPG podobna do zeldy
+ Exec=freedink
+ Icon=freedink
+-Categories=Game;AdventureGame;
++Categories=Game;RolePlaying;
++# vi: encoding=utf-8
