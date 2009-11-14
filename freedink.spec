@@ -10,11 +10,13 @@ Source0:	http://ftp.gnu.org/gnu/freedink/%{name}-%{version}.tar.gz
 Patch0:		%{name}-desktop.patch
 URL:		http://www.freedink.org/
 BuildRequires:	SDL-devel >= 1.2.0
+BuildRequires:	SDL_gfx-devel
 BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_mixer-devel
 BuildRequires:	SDL_ttf-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	fontconfig-devel
 BuildRequires:	help2man
 BuildRequires:	zlib-devel
 BuildRequires:	zziplib-devel
