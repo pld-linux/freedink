@@ -17,7 +17,10 @@ BuildRequires:	SDL_ttf-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	fontconfig-devel
+BuildRequires:	gettext-devel
 BuildRequires:	help2man
+BuildRequires:	pkgconfig
+BuildRequires:	zip
 BuildRequires:	zlib-devel
 BuildRequires:	zziplib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
