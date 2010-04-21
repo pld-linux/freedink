@@ -1,12 +1,12 @@
 Summary:	The Dink Smallwood game engine
 Summary(pl.UTF-8):	Silnik gry Dink Smallwood
 Name:		freedink
-Version:	1.08.20100321
+Version:	1.08.20100420
 Release:	1
 License:	GPL v3+
 Group:		X11/Applications/Games
 Source0:	http://ftp.gnu.org/gnu/freedink/%{name}-%{version}.tar.gz
-# Source0-md5:	3d1f3507bf3099bdb0bb609eb72d2eab
+# Source0-md5:	8ecddb33f3fcb81086d0431ad365f51f
 Patch0:		%{name}-desktop.patch
 URL:		http://www.freedink.org/
 BuildRequires:	SDL-devel >= 1.2.0
